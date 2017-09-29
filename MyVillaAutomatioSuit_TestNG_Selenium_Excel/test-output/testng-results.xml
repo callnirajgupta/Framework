@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="89477" started-at="2017-09-29T05:19:09Z" finished-at="2017-09-29T05:20:39Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="89477" started-at="2017-09-29T05:19:09Z" finished-at="2017-09-29T05:20:39Z">
+      <class name="com.exalogic.myvilla.test.EndUserRegistration">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.exalogic.myvilla.test.EndUserRegistration@4ae3c1cd]" name="beforeMethod" is-config="true" duration-ms="707" started-at="2017-09-29T10:49:09Z" finished-at="2017-09-29T10:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="endUserRegistration()[pri:0, instance:com.exalogic.myvilla.test.EndUserRegistration@4ae3c1cd]" name="endUserRegistration" duration-ms="19" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test endUserRegistration inside the suite TestData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test endUserRegistration inside the suite TestData
+	at com.exalogic.myvilla.util.CommonUtil.validateRunmodes(CommonUtil.java:82)
+	at com.exalogic.myvilla.test.EndUserRegistration.endUserRegistration(EndUserRegistration.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUserRegistration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.exalogic.myvilla.test.EndUserRegistration@4ae3c1cd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.exalogic.myvilla.test.EndUserRegistration -->
+      <class name="com.exalogic.myvilla.test.AgentRegistration">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.exalogic.myvilla.test.AgentRegistration@568bf312]" name="beforeMethod" is-config="true" duration-ms="56" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="clientRegistration()[pri:0, instance:com.exalogic.myvilla.test.AgentRegistration@568bf312]" name="clientRegistration" duration-ms="7" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test clientRegistration inside the suite TestData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test clientRegistration inside the suite TestData
+	at com.exalogic.myvilla.util.CommonUtil.validateRunmodes(CommonUtil.java:82)
+	at com.exalogic.myvilla.test.AgentRegistration.clientRegistration(AgentRegistration.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientRegistration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.exalogic.myvilla.test.AgentRegistration@568bf312]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.exalogic.myvilla.test.AgentRegistration -->
+      <class name="com.exalogic.myvilla.test.LoginToApplication">
+        <test-method status="PASS" signature="beforeMonth()[pri:0, instance:com.exalogic.myvilla.test.LoginToApplication@29f69090]" name="beforeMonth" is-config="true" duration-ms="64" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMonth -->
+        <test-method status="SKIP" signature="logintest()[pri:0, instance:com.exalogic.myvilla.test.LoginToApplication@29f69090]" name="logintest" duration-ms="9" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test logintest inside the suite TestData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test logintest inside the suite TestData
+	at com.exalogic.myvilla.util.CommonUtil.validateRunmodes(CommonUtil.java:82)
+	at com.exalogic.myvilla.test.LoginToApplication.logintest(LoginToApplication.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.exalogic.myvilla.test.LoginToApplication@29f69090]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.exalogic.myvilla.test.LoginToApplication -->
+      <class name="com.exalogic.myvilla.test.DataProviderLogin">
+        <test-method status="PASS" signature="beforeMonth()[pri:0, instance:com.exalogic.myvilla.test.DataProviderLogin@ca263c2]" name="beforeMonth" is-config="true" duration-ms="36" started-at="2017-09-29T10:49:10Z" finished-at="2017-09-29T10:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMonth -->
+        <test-method status="PASS" signature="loginScenario(java.lang.String, java.lang.String)[pri:0, instance:com.exalogic.myvilla.test.DataProviderLogin@ca263c2]" name="loginScenario" duration-ms="43410" started-at="2017-09-29T10:49:10Z" data-provider="guestLogin" finished-at="2017-09-29T10:49:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.exalogic.myvilla.test.DataProviderLogin@ca263c2]" name="afterMethod" is-config="true" duration-ms="988" started-at="2017-09-29T10:49:54Z" finished-at="2017-09-29T10:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMonth()[pri:0, instance:com.exalogic.myvilla.test.DataProviderLogin@ca263c2]" name="beforeMonth" is-config="true" duration-ms="43" started-at="2017-09-29T10:49:55Z" finished-at="2017-09-29T10:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMonth -->
+        <test-method status="PASS" signature="loginScenario(java.lang.String, java.lang.String)[pri:0, instance:com.exalogic.myvilla.test.DataProviderLogin@ca263c2]" name="loginScenario" duration-ms="43021" started-at="2017-09-29T10:49:55Z" data-provider="guestLogin" finished-at="2017-09-29T10:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[callnirajgupta@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rubigupta1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.exalogic.myvilla.test.DataProviderLogin@ca263c2]" name="afterMethod" is-config="true" duration-ms="986" started-at="2017-09-29T10:50:38Z" finished-at="2017-09-29T10:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.exalogic.myvilla.test.DataProviderLogin -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.exalogic.myvilla.support.ActionAfterFailePassTestFromTestNG"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.exalogic.myvilla.test.AgentRegistration">
+        <methods>
+          <include name="clientRegistration"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.exalogic.myvilla.test.AgentRegistration -->
+      <class name="com.exalogic.myvilla.test.EndUserRegistration">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endUserRegistration"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.exalogic.myvilla.test.EndUserRegistration -->
+      <class name="com.exalogic.myvilla.test.DataProviderLogin">
+        <methods>
+          <include name="beforeMonth"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.exalogic.myvilla.test.DataProviderLogin -->
+      <class name="com.exalogic.myvilla.test.LoginToApplication">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMonth"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- com.exalogic.myvilla.test.LoginToApplication -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
